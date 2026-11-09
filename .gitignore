@@ -1,0 +1,25 @@
+.anchor
+.DS_Store
+target
+**/*.rs.bk
+node_modules
+test-ledger
+.yarn
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and wallet files
+*.pem
+*.key
+id.json
+*-keypair.json
+wallet*.json
+devnet-wallet.json
+
+# Build and dependency files
+node_modules/
+target/
+.anchor/
